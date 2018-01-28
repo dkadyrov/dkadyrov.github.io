@@ -30,8 +30,8 @@ While in undergraduate vibrations I noticed an absence of an online walkthrough 
 * Familiar: Bash, Java, Sass, SQL, Pure Data
 
 **Software Packages**
-* 3D Modeling: Altair Hypermesh, PTC Creo/Pro-Engineer, Rhino  
-* FEA/CFD: Abaqus, Altair AcuSolve, Blender, openFOAM, LSDYNA  
+* 3D Modeling: Hypermesh, Creo/Pro-Engineer, Rhino  
+* FEA/CFD: Abaqus, AcuSolve, LSDYNA  
 * Other: Ableton Live, Adobe CS, Microsoft Office Suite
 
 **Foreign Languages**  
@@ -40,11 +40,11 @@ While in undergraduate vibrations I noticed an absence of an online walkthrough 
 
 ## Education
 
-**[Watson School of Engineering - Binghamton University (SUNY)](https://www.binghamton.edu/mechanical-engineering/graduate/index.html)**  
+**[Watson School of Engineering - Binghamton University](https://www.binghamton.edu/mechanical-engineering/graduate/index.html)**  
 **Master of Science: Mechanical Engineering** - May 2016  
 Specialization in Acoustics and Dynamic Systems  
 
-**[Watson School of Engineering - Binghamton University (SUNY)](https://www.binghamton.edu/watson/index.html)**  
+**[Watson School of Engineering - Binghamton University](https://www.binghamton.edu/watson/index.html)**  
 **Bachelor of Science: Mechanical Engineering** - May 2015  
 
 ## Employment History
