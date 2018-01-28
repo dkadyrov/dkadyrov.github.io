@@ -6,31 +6,37 @@ layout: default
 
 ---
 
-## Projects
+## Personal Projects
 
 **[DPLOTPY](https://github.com/dkadyrov/dplotpy)**  
-Python package for DPLOT graphic software
-
-**[MATLAB Spring-Mass-Damper Script](https://github.com/dkadyrov/springmassdamper)**  
-While in undergraduate vibrations I noticed an absence of an online walkthrough and example for solving forced spring-mass-damper systems in MATLAB. So I built one and wrote a small writeup.
+Python package for DPLOT graphing software
 
 **Google Sheet-Calendar Integration Scripts**  
 A productivity based script to visualize fitness, nutrition, financial, and other spreadsheet-able information within the Google Calendar. Implementation of Google Script (JavaScript) and Google APIs.
 
 **Noise/Sound Study of NYC MTA Subway System**  
-Ongoing project collecting and analyzing noise and sound data from MTA subway trains. Concerns sound amplitude levels beyond OSHA standards that can further hearing damage to subway riders and workers.
+Ongoing project collecting and analyzing noise and sound data from MTA subway platforms. Concerns sound amplitude levels beyond OSHA standards that can further hearing damage to subway riders and workers.
+
+**LaTeX Templates and Automation Scripts**
+Python scripts to automate document generation using LaTeX, Markdown and [Pandoc](https://pandoc.org/). LaTeX classes for articles, letters, and resume. Resume and cover letter automation.
+
+**[MATLAB Spring-Mass-Damper Script](https://github.com/dkadyrov/springmassdamper)**  
+While in undergraduate vibrations I noticed an absence of an online walkthrough and example for solving forced spring-mass-damper systems in MATLAB. So I built one and wrote a small writeup.
 
 ## Skills
 **Programming Languages**  
-Fortran, HTML/CSS/Sass, JavaScript, LaTeX, MATLAB, Python
+* Proficient: Python, LaTeX, MATLAB
+* Comfortable: Fortran, JavaScript, HTML/CSS
+* Familiar: Bash, Java, Sass, SQL, Pure Data
 
-**Software Packages**  
-Modeling: Altair Hypermesh, PTC Creo/Pro-Engineer, Rhino  
-FEA/CFD: Abaqus, Altair AcuSolve, Blender, openSim, LSDYNA  
-Other: Ableton Live, Adobe CS, Microsoft Office Suite
+**Software Packages**
+* 3D Modeling: Altair Hypermesh, PTC Creo/Pro-Engineer, Rhino  
+* FEA/CFD: Abaqus, Altair AcuSolve, Blender, openFOAM, LSDYNA  
+* Other: Ableton Live, Adobe CS, Microsoft Office Suite
 
 **Foreign Languages**  
-Russian (fluent), Spanish (High school, conversational)  
+* Russian (fluent, technical)
+* Spanish (High school, conversational)  
 
 ## Education
 
@@ -45,7 +51,7 @@ Specialization in Acoustics and Dynamic Systems
 
 **[Weidlinger Applied Science - Thornton Tomasetti](http://www.thorntontomasetti.com/services/weidlinger_applied_science/)**  
 _Senior Engineer_  
-New York City, NY  
+New York, NY  
 Jan 2017 to Present
 
 **Frequency Networks Inc.**  
@@ -58,7 +64,7 @@ _Research Assistant_
 Binghamton, NY  
 Jun 2014 - Aug 2015
 
-**[WHRW 90.5 FM - Binghamton Campus Radio Station](whrwfm.org)**  
+**[WHRW 90.5 FM - Binghamton Campus Radio Station](http://www.whrwfm.org/)**  
 _General Manager & President, Radio DJ_  
 Binghamton, NY  
 May 2014 - May 2015
