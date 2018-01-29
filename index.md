@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Resume
+[Download PDF](https://docs.google.com/viewer?url=https://github.com/dkadyrov/dkadyrov.github.io/raw/master/Kadyrov_Daniel_Resume.pdf])
 
 ---
 
@@ -17,7 +18,7 @@ A productivity based script to visualize fitness, nutrition, financial, and othe
 **Noise/Sound Study of NYC MTA Subway System**  
 Ongoing project collecting and analyzing noise and sound data from MTA subway platforms. Concerns sound amplitude levels beyond OSHA standards that can further hearing damage to subway riders and workers.
 
-**LaTeX Templates and Automation Scripts**
+**LaTeX Templates and Automation Scripts**  
 Python scripts to automate document generation using LaTeX, Markdown and [Pandoc](https://pandoc.org/). LaTeX classes for articles, letters, and resume. Resume and cover letter automation.
 
 **[MATLAB Spring-Mass-Damper Script](https://github.com/dkadyrov/springmassdamper)**  
@@ -37,6 +38,11 @@ While in undergraduate vibrations I noticed an absence of an online walkthrough 
 **Foreign Languages**  
 * Russian (fluent, technical)
 * Spanish (High school, conversational)  
+
+**Certifications**
+* NY Engineering in Training (FE 2016)
+* OSHA 10 Safety
+* Suspended Scaffolding
 
 ## Education
 
