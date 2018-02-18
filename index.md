@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Resume
-[Download PDF](http://dkadyrov.github.io/documents/Kadyrov_Daniel_Resume.pdf])
+[Download PDF](http://dkadyrov.github.io/documents/Kadyrov_Daniel_Resume.pdf)
 
 ---
 
