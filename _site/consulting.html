@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Daniel Kadyrov Personal Website</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1> Daniel Kadyrov
+
+            <!-- <a href="index">Daniel Kadyrov</a> TODO Link-->
+
+        </h1>
+        <hr>
+
+        <p>Engineer based in New York City<br>
+          <br>
+          I enjoy studying chess, viewing fine art, talking finance, listening and playing jazz, and collecting synthesizers.
+        </p>
+        
+        <hr>
+
+        <p class="view"><a href="/resume">View Online Resume<small></small></a></p>
+        <p class="view"><a href="http://dkadyrov.github.io/documents/Kadyrov_Daniel_Resume.pdf">Download Resume <small></small></a></p>
+
+        <hr>
+
+        <p class="view"><a href="mailto: daniel.kadyrov@gmail.com">Email <small>daniel.kadyrov@gmail.com</small></a></p>
+
+        <p class="view"><a href="http://github.com/dkadyrov">GitHub <small>github.com/dkadyrov</small></a></p>
+
+        <p class="view"><a href="http://linkedin.com/in/kadyrov">LinkedIn <small>linkedin.com/in/kadyrov</small></a></p>
+
+        <hr>
+
+        <!-- <p class="view"><a href="https://t.me/dankyrov">Telegram <small>t.me/dankyrov</small></a></p> -->
+
+        <!-- <ul>
+          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
+        </ul> -->
+
+
+
+      </header>
+      <section>
+        <h1 id="consulting-services">Consulting Services</h1>
+<hr />
+
+<h2 id="it-and-software">IT and Software</h2>
+
+<ul>
+  <li>Computer and server system setup, troubleshooting, and repairs
+    <ul>
+      <li>Windows, MacOS, Linux</li>
+      <li>Software Installation</li>
+    </ul>
+  </li>
+  <li>Website Services
+    <ul>
+      <li>Web Design, Operation, and Maintenance</li>
+      <li>Wordpress, Jekyll, Squarespace</li>
+    </ul>
+  </li>
+  <li>Automation and Scripting Services
+    <ul>
+      <li>Python and JavaScript</li>
+      <li>Internet of Things API’s (IFFFT, Google, Facebook, Twitter .etc)</li>
+    </ul>
+  </li>
+  <li>Education: 1 on 1 Computer and Software Tutoring</li>
+</ul>
+
+<h3 id="previous-clients">Previous Clients:</h3>
+
+<ul>
+  <li>DesignOne Studio</li>
+  <li><a href="http://www.sigmundnyc.com/">Sigmund’s Pretzel Shop</a></li>
+  <li><a href="https://www.frequency.com">Frequency Networks, Inc</a></li>
+</ul>
+
+<h3 id="payment">Payment:</h3>
+
+<p>Free Consultation</p>
+
+<p>$150/base + Additional Negotiated Amount</p>
+
+        <!-- <div class="slideshow-container"> -->
+
+        <!-- <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="letter.jpg" style="width:85%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="letter.jpg" style="width:85%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="letter.jpg" style="width:85%">
+          <div class="text">Caption Three</div>
+        </div> -->
+
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div> -->
+
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+      </section>
+      <footer>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
