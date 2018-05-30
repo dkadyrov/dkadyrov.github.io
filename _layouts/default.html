@@ -16,15 +16,23 @@
     <div class="wrapper">
       <header>
         <h1> Daniel Kadyrov
+
             <!-- <a href="index">Daniel Kadyrov</a> TODO Link-->
 
         </h1>
+        <hr>
 
         <p>Engineer based in New York City<br>
           <br>
           I enjoy studying chess, viewing fine art, talking finance, listening and playing jazz, and collecting synthesizers.
         </p>
+        
+        <hr>
 
+        <p class="view"><a href="/resume">View Online Resume<small></small></a></p>
+        <p class="view"><a href="http://dkadyrov.github.io/documents/Kadyrov_Daniel_Resume.pdf">Download Resume <small></small></a></p>
+
+        <hr>
 
         <p class="view"><a href="mailto: daniel.kadyrov@gmail.com">Email <small>daniel.kadyrov@gmail.com</small></a></p>
 
@@ -32,7 +40,9 @@
 
         <p class="view"><a href="http://linkedin.com/in/kadyrov">LinkedIn <small>linkedin.com/in/kadyrov</small></a></p>
 
-        <p class="view"><a href="https://t.me/dankyrov">Telegram <small>t.me/dankyrov</small></a></p>
+        <hr>
+
+        <!-- <p class="view"><a href="https://t.me/dankyrov">Telegram <small>t.me/dankyrov</small></a></p> -->
 
         <!-- <ul>
           <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
@@ -44,11 +54,69 @@
 
       </header>
       <section>
-          {{content}}
+        {{content}}
+        <!-- <div class="slideshow-container"> -->
+
+        <!-- <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="letter.jpg" style="width:85%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="letter.jpg" style="width:85%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="letter.jpg" style="width:85%">
+          <div class="text">Caption Three</div>
+        </div> -->
+
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div> -->
+
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
       </section>
       <footer>
-        <!-- <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
