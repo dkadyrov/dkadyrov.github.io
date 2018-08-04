@@ -5,10 +5,6 @@ layout: default
 # Personal Projects and Services
 ---
 
-## [Consulting Services](/consulting)
-
-IT and Software consulting services for small local businesses
-
 ## [DPLOTPY](/dplotly)  
 Python package for DPLOT graphing software
 

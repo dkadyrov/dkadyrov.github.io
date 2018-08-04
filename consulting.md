@@ -22,9 +22,3 @@ layout: default
 - DesignOne Studio
 - [Sigmund's Pretzel Shop](http://www.sigmundnyc.com/)
 - [Frequency Networks, Inc](https://www.frequency.com)
-
-## Audio
-- Recording, Mixing, and Mastering
-  - Ableton Live, Adobe Audition, Logic Pro
-- Session and Live Keyboard Musician
-  - Piano, Rhodes/Organ, Synthesizers
