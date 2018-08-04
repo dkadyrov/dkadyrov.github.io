@@ -11,7 +11,7 @@ layout: default
   - Software Installation
 - Website Services
   - Web Design, Operation, and Maintenance
-  - Wordpress, Jekyll, Squarespace
+  - WordPress, Jekyll, Squarespace
 - Automation and Scripting Services
   - Python and JavaScript
   - Internet of Things API's (IFFFT, Google, Facebook, Twitter .etc)
@@ -23,8 +23,8 @@ layout: default
 - [Sigmund's Pretzel Shop](http://www.sigmundnyc.com/)
 - [Frequency Networks, Inc](https://www.frequency.com)
 
-### Payment:
-
-Free Consultation
-
-$150/base + Additional Negotiated Amount
+## Audio
+- Recording, Mixing, and Mastering
+  - Ableton Live, Adobe Audition, Logic Pro
+- Session and Live Keyboard Musician
+  - Piano, Rhodes/Organ, Synthesizers
