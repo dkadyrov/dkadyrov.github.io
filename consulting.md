@@ -14,7 +14,7 @@ layout: default
   - WordPress, Jekyll, Squarespace
 - Automation and Scripting Services
   - Python and JavaScript
-  - Internet of Things API's (IFFFT, Google, Facebook, Twitter .etc)
+  - APIs (Google, Facebook, Twitter .etc)
 - Education: 1 on 1 Computer and Software Tutoring
 
 ### Previous Clients:
