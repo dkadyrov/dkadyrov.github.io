@@ -8,7 +8,7 @@ layout: default
 ## [DPLOTPY](/dplotly)  
 Python package for DPLOT graphing software
 
-## [LaTeX Templates and Automation Scripts](/latex)
+## LaTeX Templates and Automation Scripts
 Python scripts to automate document generation using LaTeX, Markdown and [Pandoc](https://pandoc.org/). LaTeX classes for articles, letters, and resume. Resume and cover letter automation.
 
 ## Google Sheet-Calendar Integration Scripts
