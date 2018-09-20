@@ -5,7 +5,7 @@ layout: default
 # Personal Projects and Services
 ---
 
-## [DPLOTPY](/dplotly)  
+## [DPLOTPY](https://github.com/dkadyrov/DPLOTPY)  
 Python package for DPLOT graphing software
 
 ## LaTeX Templates and Automation Scripts
