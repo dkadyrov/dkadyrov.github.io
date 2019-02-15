@@ -2,8 +2,11 @@
 layout: default
 ---
 
-# Personal Projects and Services
+# Portfolio
 ---
+
+## [Flatiron Design Studio, Inc](https://flatirondesignstudio.com)
+Website development (HTML, CSS, Bootstrap) for design company in NYC
 
 ## [DPLOTPY](https://github.com/dkadyrov/DPLOTPY)  
 Python package for DPLOT graphing software
