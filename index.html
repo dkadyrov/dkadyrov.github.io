@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfolio for Daniel Kadyrov">
+    <meta name="author" content="Daniel Kadyrov">
+    <title>Daniel Kadyrov Portfolio</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jquery.scrollify.js"></script>
+    <script>
+        if(!(/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
+
+        $(function () {
+            $.scrollify({
+                section: ".section-part",
+                sectionName: "my", 
+                scrollSpeed: 2000,
+            });
+        });
+        };
+        if((/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
+
+        $(function () {
+            $.scrollify({
+                section: ".section-part",
+                sectionName: "my", 
+                scrollSpeed: 2000,
+                interstitialSection : "header"
+            });
+        });
+        };
+    </script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1> Daniel Kadyrov </h1>
+            <hr>
+            <p>
+                Software Engineer with a background in Machine Learning, Acoustics and Mechanical Engineering.<br>
+                <br>
+                I enjoy studying viewing fine art, talking finance, listening and performing jazz music, and playing
+                chess.
+            </p>
+            <p class="view"><a href="resume.html">View Online Resume<small></small></a></p>
+            <p class="view"><a href="http://dkadyrov.github.io/documents/Kadyrov_Daniel_Resume.pdf">Download Resume
+                    <small></small></a></p>
+            <hr>
+
+            <p class="view"><a href="mailto: daniel.kadyrov@gmail.com">Email <small>daniel.kadyrov@gmail.com</small></a></p>
+
+            <p class="view"><a href="http://github.com/dkadyrov">GitHub <small>github.com/dkadyrov</small></a></p>
+
+            <p class="view"><a href="http://linkedin.com/in/kadyrov">LinkedIn <small>linkedin.com/in/kadyrov</small></a></p>
+
+
+        </header>
+        <section>
+            <div class="section-part" id="myWeb">
+                <h1> Web Applications </h1>
+                <hr>
+                <h2> Calenfeed </h2>
+                    <p> Django backend web application with SQLite (and later Postgres) database of event feeds for
+                        users to subscribe to with their favorite calendar applications (Google Calendar, iCalendar).
+                        Preperation for deployment to Heroku and AWS.
+                    </p>
+
+                    <h2><a href="flatironstudio.com"> Flatiron Design Studio, Inc</a></h2>
+                        <p> Website development using HTML, CSS, and Bootstrap for design consulting company in NYC
+                        </p>
+
+                        <h2> Portfolio Website </h2>
+                            <p> The website you are viewing now. Originally built using Jekyll but migrated to regular
+                                HTML for simplicity. HTML/CSS design with help from Bootstrap and JQuery tools. Hosted
+                                on GitHub pages.
+                            </p>
+
+            </div>
+            <div class="section-part" id="myTools">
+                <h1> Programming Tools </h1>
+                <hr>
+                <h2><a href="https://github.com/dkadyrov/DPLOTPY"> DPLOTPY</a> </h2>
+                <p> Python package for DPLOT graphing software. Preperation for deployment on PyPi.</p>
+
+                <h2><a href='https://github.com/dkadyrov/latex_templates'> LaTeX Templates</a></h2>
+                <p> Python scripts to automate document generation using LaTeX, Markdown and Pandoc. LaTeX classes for
+                    articles, letters, and resume.</p>
+            </div>
+            <div class="section-part" id="myAcoustics">
+                <h1> Acoustics and Engineering </h1>
+                <hr>
+                <h2>Noise Study of NYC MTA Subway System </h2>
+                <p>Ongoing project collecting and analyzing noise and sound data from MTA subway platforms. Concerns
+                    sound amplitude levels beyond OSHA standards that can further hearing damage to subway riders and
+                    workers.</p>
+                <h2> 2D Heat Conduction in Composite Geometry </h2>
+                <p> Final project to satisfy requirements for ME 541 course titled Computational Heat Transfer at Binghamton University. Computational formulation in MATLAB to study how to analyze heat conduction within composite materials in cartesian and polar domains. Paper compiled in LaTeX.
+                </p>
+
+            </div>
+        </section>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
