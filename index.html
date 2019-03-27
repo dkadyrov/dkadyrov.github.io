@@ -2,115 +2,157 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Portfolio for Daniel Kadyrov">
-    <meta name="author" content="Daniel Kadyrov">
-    <title>Daniel Kadyrov Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio for Daniel Kadyrov">
+  <meta name="author" content="Daniel Kadyrov">
+  <title>Daniel Kadyrov Portfolio</title>
 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link href="style.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-    <link href="css/style.css" rel="stylesheet">
-
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/jquery.scrollify.js"></script>
-    <script>
-        if(!(/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
-
-        $(function () {
-            $.scrollify({
-                section: ".section-part",
-                sectionName: "my", 
-                scrollSpeed: 2000,
-            });
-        });
-        };
-        if((/Android|webOS|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i.test(navigator.userAgent) )) {
-
-        $(function () {
-            $.scrollify({
-                section: ".section-part",
-                sectionName: "my", 
-                scrollSpeed: 2000,
-                interstitialSection : "header"
-            });
-        });
-        };
-    </script>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header>
-            <h1> Daniel Kadyrov </h1>
-            <hr>
-            <p>
-                Software Engineer with a background in Machine Learning, Acoustics and Mechanical Engineering.<br>
-                <br>
-                I enjoy studying viewing fine art, talking finance, listening and performing jazz music, and playing
-                chess.
-            </p>
-            <p class="view"><a href="resume.html">View Online Resume<small></small></a></p>
-            <p class="view"><a href="http://dkadyrov.github.io/portfolio/Kadyrov_Daniel_Resume.pdf">Download Resume
-                    <small></small></a></p>
-            <hr>
+  <div class="container">
+    <header class="header">
+      <h1>DANIEL KADYROV</h1>
+      <hr>
+    </header>
+    <div class="console">
+      <div class="section-part">
+        <p>
+          I am a software engineer based in New York, NY. <br>
+          <br>
+          I enjoy viewing fine art, discussing finance, listening and performing jazz music, and playing
+          chess.<br>
+          <br>
+          This website is a portfolio of my projects and online version of my resume of work experience and
+          education.<br>
+          <br>
+          Check out my projects on GitHub. Contact me on LinkedIn or send me an email.
+        </p>
+      </div>
+      <div class="section-part">
+        <h2>Personal Projects</h2>
+        <h3>CalenFeed</h3>
+        <p>Django backend web application with SQLite (and later Postgres) database of event feeds for users to
+          subscribe to with their favorite calendar applications (Google Calendar, iCalendar). Preperation for
+          deployment to Heroku and AWS.</p>
 
-            <p class="view"><a href="mailto: daniel.kadyrov@gmail.com">Email <small>daniel.kadyrov@gmail.com</small></a></p>
+        <h3><a href="https://github.com/dkadyrov/DPLOTPY">DPLOTPY</a></h3>
+        <p>Python package for DPLOT graphing software. Preperation for deployment on PyPi.</p>
 
-            <p class="view"><a href="http://github.com/dkadyrov">GitHub <small>github.com/dkadyrov</small></a></p>
+        <h3><a href='https://github.com/dkadyrov/latex_templates'>LaTeX Templates</a></h3>
+        <p>LaTeX templates and classes for article, letter, and resume document generation. Support for conversion using
+          Pandoc.</p>
 
-            <p class="view"><a href="http://linkedin.com/in/kadyrov">LinkedIn <small>linkedin.com/in/kadyrov</small></a></p>
+        <h3><a href="https://github.com/dkadyrov/dkadyrov.github.io">Portfolio Website</a></h3>
+        <p>
+          The website you are viewing now. Originally built using Jekyll but migrated to regular
+          HTML for simplicity. HTML/CSS design with help from Bootstrap and JQuery tools. Hosted
+          on GitHub pages.
+        </p>
+      </div>
+      <div class="section-part">
+        <h2>Skills</h2>
+        <h3>Programming Languages</h3>
+        <p>Python, MATLAB, JavaScript, LaTeX, Fortran, SQL, HTML/CSS</p>
+        <h3>Programming Frameworks</h3>
+        <p>Django, Flask, PyQt, Bootstrap, MongoDB, TensorFlow</p>
+        <h3>Software Tools</h3>
+        <p>
+          Engineering: PTC Creo/Pro-Engineer, AutoCAD, Altair Hyperstudio, AcuSolve <br>
+          Audio: Ableton Live, Adobe Audition, Logic Pro, Reason <br>
+          Other: Adobe Creative Studio, Microsoft Office
+        </p>
+        <h3>Topics</h3>
+        <p>Acoustics, Machine Learning, Web and Standalone Application Development</p>
+        <h3>Oral Languages</h3>
+        <p> English (native, technical) <br>
+          Russian (native, technical) <br>
+          Spanish (high school, conversational) <br>
+        </p>
+      </div>
+      <div class="section-part">
+        <h2>Employment History</h2>
+        <h3>Senior Engineer</h3>
+        <p><a href="https://www.thorntontomasetti.com/services/applied_science/">Weidlinger Applied Science - Thornton Tomasetti</a><br>
+          January 2017 - November 2018 <br>
+          New York, NY
+        </p>
+        <h3>Quality Assurance Engineer</h3>
+        <p><a href="https://www.frequency.com/">Frequency Networks, Inc</a><br>
+          June 2015 - August 2015<br>
+          Los Angeles, CA
+        </p>
+        <h3>Research Assistant</h3>
+        <p>
+          <a href="https://www.binghamton.edu/watson/facilities/acoustics.html">Acoustics Core - Binghamton
+            University</a><br>
+          June 2014 - August 2014 <br>
+          Binghamton, NY <br>
+        </p>
+        <h3>General Manager</h3>
+        <p>
+          <a href="http://www.whrwfm.org/">WHRW 90.5 FM - Binghamton Campus Radio Station</a><br>
+          May 2014 - May 2015 <br>
+          Binghamton, NY <br>
+        </p>
+        <h3>Head Teaching Assistant</h3>
+        <p>
+          MIDI Course and Lab - Binghamton University <br>
+          February 2012 - May 2014 <br>
+          Binghamton, NY <br>
+        </p>
+        <h3>Live Sound Engineer</h3>
+        <p>
+          <a href="http://bssl.binghamtonsa.org/">Binghamton, Sound, Stage, and Lighting (BSSL)</a><br>
+          September 2012 - May 2015 <br>
+          Binghamton, NY <br>
+        </p>
+      </div>
+      <div class="section-part">
+        <h2>Education</h2>
+        <h3>MS Mechanical Engineering </h3>
+        <p>
+          <a href="https://www.binghamton.edu/mechanical-engineering/graduate/index.html">Watson School of Engineering,
+            Binghamton
+            University</a> <br>
+          Specialization in Acoustics and Dynamic Systems<br>
+          September 2014 - May 2016 <br>
+          <br>
+          Course Highlights: Advanced Acoustics, Advanced Dynamics, Computational Heat Transfer, Design Optimization,
+          Machine Design
+        </p>
 
+        <h3>BS Mechanical Engineering</h3>
+        <p>
+          <a href="https://www.binghamton.edu/watson/index.html">Watson School of Engineering, Binghamton
+            University</a><br>
+          September 2011 - May 2015 <br>
+          <br>
+          Course Highlights: Acoustics, Creative Sound Production, Mechatronics, MIDI, Sustainable Design
+        </p>
 
-        </header>
-        <section>
-            <div class="section-part" id="myWeb">
-                <h1> Web Applications </h1>
-                <hr>
-                <h2> <a href="https://github.com/dkadyrov/calendarapp">Calenfeed</a></h2>
-                    <p> Django backend web application with SQLite (and later Postgres) database of event feeds for
-                        users to subscribe to with their favorite calendar applications (Google Calendar, iCalendar).
-                        Preperation for deployment to Heroku and AWS.
-                    </p>
-
-                    <h2><a href="flatironstudio.com"> Flatiron Design Studio, Inc</a></h2>
-                        <p> Website development using HTML, CSS, and Bootstrap for design consulting company in NYC
-                        </p>
-
-                        <h2> Portfolio Website </h2>
-                            <p> The website you are viewing now. Originally built using Jekyll but migrated to regular
-                                HTML for simplicity. HTML/CSS design with help from Bootstrap and JQuery tools. Hosted
-                                on GitHub pages.
-                            </p>
-
-            </div>
-            <div class="section-part" id="myTools">
-                <h1> Programming Tools </h1>
-                <hr>
-                <h2><a href="https://github.com/dkadyrov/DPLOTPY"> DPLOTPY</a> </h2>
-                <p> Python package for DPLOT graphing software. Preperation for deployment on PyPi.</p>
-
-                <h2><a href='https://github.com/dkadyrov/latex_templates'> LaTeX Templates</a></h2>
-                <p> Python scripts to automate document generation using LaTeX, Markdown and Pandoc. LaTeX classes for
-                    articles, letters, and resume.</p>
-            </div>
-            <div class="section-part" id="myAcoustics">
-                <h1> Acoustics and Engineering </h1>
-                <hr>
-                <h2>Noise Study of NYC MTA Subway System </h2>
-                <p>Ongoing project collecting and analyzing noise and sound data from MTA subway platforms. Concerns
-                    sound amplitude levels beyond OSHA standards that can further hearing damage to subway riders and
-                    workers.</p>
-                <h2> 2D Heat Conduction in Composite Geometry </h2>
-                <p> Final project to satisfy requirements for ME 541 course titled Computational Heat Transfer at Binghamton University. Computational formulation in MATLAB to study how to analyze heat conduction within composite materials in cartesian and polar domains. Paper compiled in LaTeX.
-                </p>
-
-            </div>
-        </section>
+        <h3>Certifications </h3>
+        <p>
+          NY Engineering in Training (FE 2016), OSHA 10 Safety, Suspended Scaffolding
+        </p>
+      </div>
     </div>
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <footer class="footer">
+      <hr>
+      <div class="row justify-content-center">
+        <a class="btn" href="portfolio/Kadyrov_Daniel_Resume.pdf"><i class="fas fa-file-pdf"></i><span class="hidden-sm"> Download PDF </span></a>
+        <a class="btn" href="mailto:daniel.kadyrov@gmail.com"><i class="fas fa-paper-plane"></i> Email</a>
+        <a class="btn" href="https://www.linkedin.com/in/kadyrov"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a class="btn" href="https://github.com/dkadyrov"><i class="fab fa-github"></i> Github</a>
+      </div>
+    </footer>
+  </div>
 </body>
 
 </html>
