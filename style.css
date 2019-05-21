@@ -3,6 +3,10 @@ body {
   padding: 5%;
 }
 
+/* footer {
+  width: 
+} */
+
 .container { 
   display: flex;
   flex-direction: column;
@@ -81,7 +85,9 @@ h3 {
   .console {
     height: 60vh;
   }
-
+  .btn-text{
+    display: none;
+  }
   .section-part {
     min-height: 60vh;
     /* display: block; */
@@ -133,6 +139,8 @@ h3 {
   .btn {
     font-size: 2vh;
   }
+  
+
 
   p {
     font-size: 2vh;
