@@ -1,23 +1,9 @@
-body { 
-    margin-left: 20vh;
-    margin-right: 20vh;
-    margin-top: 5vh;
-}
-
-.section {
-    height: 75vh;
-}
-
-.console {
-    overflow-y: auto;
-    height: 75vh;
-    scroll-behavior: smooth;
-}
-
-h1 { 
-    font-weight: bolder;
-}
-
-h2 {
-    font-weight: normal;
+body {
+    margin: 5vh;
+    font-weight: 500;
+    font-family: 'Arial';
+    /* width: 100vh; */
+    /* height: 100vh; */
+    /* overflow-y: hidden; */
+    /* overflow-x: hidden; */
 }
