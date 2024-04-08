@@ -24,8 +24,8 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.DesktopOnly(Component.Search()),
+    Component.DesktopOnly(Component.Darkmode()),
     Component.DesktopOnly(Component.Explorer({
       sortFn: (a, b) => {
         if ((!a.file && !b.file) || (a.file && b.file)) {
@@ -40,9 +40,9 @@ export const defaultContentPageLayout: PageLayout = {
     })),
   ],
   right: [
-    Component.Graph(),
+    Component.DesktopOnly(Component.Graph()),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+    Component.DesktopOnly(Component.Backlinks()),
   ],
 }
 
@@ -52,8 +52,8 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.DesktopOnly(Component.Search()),
+    Component.DesktopOnly(Component.Darkmode()),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
