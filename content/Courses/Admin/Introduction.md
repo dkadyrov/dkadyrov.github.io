@@ -1,6 +1,7 @@
 ---
 title: Introduction
 date: 2024-04-07
+order: "1"
 ---
 
 ## Instructor Introduction
@@ -21,7 +22,7 @@ Common questions I ask are:
 - What is the last tasty thing you ate? 
 
 Virtual courses will have have the following questions: 
-- 
+- Where are you physically located?
 
 Additionally, I like to ask more topical questions based on the course: 
 - What level of experience do you have with Python or programming?
